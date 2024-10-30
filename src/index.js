@@ -19,6 +19,9 @@ console.log("Deepar version: " + deepar.version);
   const effectList = [
     "effects/braga.deepar",
     "effects/funny.deepar",
+    "effects/alien.deepar",
+    "effects/extreme.deepar",
+    "effects/glass.deepar",
   ];
 
   let deepAR = null;
