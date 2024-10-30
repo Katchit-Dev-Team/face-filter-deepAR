@@ -26,7 +26,7 @@ console.log("Deepar version: " + deepar.version);
   // Initialize DeepAR with an effect file.
   try {
     deepAR = await deepar.initialize({
-      licenseKey: "886f0b86322213950c0fe9688e8e15b72d5147393cc66b1bfdcde573ebcb2926f9809f679489a706",
+      licenseKey: "e834cd06aa53e1c56e66cc51e21fa0ca80e0ff5a90a9665329a03c7fc59cde34a88efb7038f9a1b5",
       previewElement,
       effect: effectList[0],
       // Removing the rootPath option will make DeepAR load the resources from the JSdelivr CDN,
