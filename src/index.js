@@ -22,6 +22,7 @@ console.log("Deepar version: " + deepar.version);
     "effects/alien.deepar",
     "effects/extreme.deepar",
     "effects/glass.deepar",
+    "effects/tree.deepar",
   ];
 
   let deepAR = null;
