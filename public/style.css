@@ -17,8 +17,7 @@ body {
 #loading-screen,
 #permission-denied-screen,
 #permission-denied-background {
-  background-color: rgb(17 24 39 / 1);
-  background-image: url("./images/gradient.svg"), url("./images/bg-grid-dark.svg");
+  background-color: #8936ff;
   background-repeat: no-repeat, repeat;
   display: flex;
   align-items: center;
@@ -177,7 +176,7 @@ body {
 
 #loading-progress-bar {
   width: 0%;
-  background: rgb(0 98 209 / 1);
+  background: white;
   height: 100%;
   transition: width 5s ease-out;
 }
