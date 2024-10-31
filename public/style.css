@@ -25,25 +25,27 @@ body {
 }
 
 .fixed-fullscreen {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 88vh;
 }
 
 /* Carousel */
 
 .carousel {
-  position: absolute;
+  position: relative;
   bottom: 0;
   overflow: hidden;
   cursor: grab;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 120px;
+  height: 9vh;
+  padding-top: 24px;
   width: 100%;
+
 }
 
 .carousel.active {
@@ -57,7 +59,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  top: 0;
+  top: 10px;
   left: 0;
   width: fit-content;
   height: inherit;
@@ -72,10 +74,11 @@ body {
 .carousel-center {
   width: 84px;
   height: 84px;
-  border: 8px solid #fff;
+  border: 6px solid #8936ff;
   border-radius: 50%;
   z-index: 100;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  margin-bottom: 28px;
   -webkit-user-select: none;
 }
 
